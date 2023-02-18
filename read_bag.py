@@ -24,13 +24,8 @@ def ConvertTOFrame():
         frame = frame.reshape(msg.height, msg.width,-1) #we tell the numpy to compute the size of thrid dimension based of the size of the array
         #print(frame)
         #print(np.max(frame))
-        #use opencv to process the frame
         processTheFrame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
-        #print(processTheFrame)
-        #print(processTheFrame.shape)
-        #print(np.max(processTheFrame))
         cv2.imshow("processTheFrame" ,processTheFrame)
-        #cv2.imshow("Frame" ,frame[:, :, :3])
         key = cv2.waitKey(80)
         if key ==27:
             break
