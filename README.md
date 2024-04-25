@@ -13,4 +13,5 @@ model is also used to predict the continuation of the trajectory by extending th
 Finally, the curve is checked whether it intersects with the area of the box or not to
 decide if the throw was successful or not.
 
-![image](https://github.com/samiG99/Exjobb/assets/58847870/e9b2265f-f175-4d50-8e71-1eb5bfe24af2)
+![image](https://github.com/samiG99/Exjobb/assets/58847870/55fffdc2-7963-442f-adc3-a8e97bb52e47)
+
